@@ -21,7 +21,7 @@ def primes(n):
     k = range(2,n)
     while len(k)>0:
     	i = k[0]
-	    k = [g for g in k if g%k[0] != 0]
+	k = [g for g in k if g%k[0] != 0]
     	prime.append(i)
 	    if i**2 > a:
 		    break
