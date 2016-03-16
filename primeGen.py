@@ -1,7 +1,11 @@
-## ---------------- ##
-## Method 1 (fast)  ##
-## Taken from http://stackoverflow.com/questions/2068372/fastest-way-to-list-all-primes-below-n/3035188#3035188 ##
-## ---------------- ##
+## ------------------------------ ##
+## Returns  a list of primes < n  ##
+## ------------------------------ ##
+
+## ------------------------------------------------------------------------------------------------- ##
+## Method 1 (fast)                                                                                   ##
+## http://stackoverflow.com/questions/2068372/fastest-way-to-list-all-primes-below-n/3035188#3035188 ##
+## ------------------------------------------------------------------------------------------------- ##
 
 import numpy
 def primes(n):
